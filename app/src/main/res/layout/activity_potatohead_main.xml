@@ -31,7 +31,8 @@
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"
         android:src="@drawable/arms"
-        android:id="@+id/potatoArms" />
+        android:id="@+id/potatoArms"
+        android:visibility="invisible"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="280dp"
@@ -39,7 +40,8 @@
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"
         android:src="@drawable/ears"
-        android:id="@+id/potatoEars" />
+        android:id="@+id/potatoEars"
+        android:visibility="invisible"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="280dp"
@@ -47,7 +49,8 @@
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"
         android:src="@drawable/eyebrows"
-        android:id="@+id/potatoEyebrows" />
+        android:id="@+id/potatoEyebrows"
+        android:visibility="invisible"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="280dp"
@@ -55,7 +58,8 @@
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"
         android:src="@drawable/eyes"
-        android:id="@+id/potatoEyes" />
+        android:id="@+id/potatoEyes"
+        android:visibility="invisible"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="280dp"
@@ -63,7 +67,8 @@
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"
         android:src="@drawable/glasses"
-        android:id="@+id/potatoGlasses" />
+        android:id="@+id/potatoGlasses"
+        android:visibility="invisible"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="280dp"
@@ -71,7 +76,8 @@
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"
         android:src="@drawable/hat"
-        android:id="@+id/potatoHat" />
+        android:id="@+id/potatoHat"
+        android:visibility="invisible"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="280dp"
@@ -79,7 +85,8 @@
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"
         android:src="@drawable/mouth"
-        android:id="@+id/potatoMouth" />
+        android:id="@+id/potatoMouth"
+        android:visibility="invisible"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="280dp"
@@ -87,7 +94,8 @@
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"
         android:src="@drawable/mustache"
-        android:id="@+id/potatoMustache" />
+        android:id="@+id/potatoMustache"
+        android:visibility="invisible"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="280dp"
@@ -95,7 +103,8 @@
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"
         android:src="@drawable/nose"
-        android:id="@+id/potatoNose" />
+        android:id="@+id/potatoNose"
+        android:visibility="invisible"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="280dp"
@@ -103,7 +112,8 @@
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"
         android:src="@drawable/shoes"
-        android:id="@+id/potatoShoes" />
+        android:id="@+id/potatoShoes"
+        android:visibility="invisible"/>
 
     <GridLayout
         android:layout_width="240dp"
