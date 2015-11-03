@@ -24,97 +24,189 @@
         android:src="@drawable/body"
         android:id="@+id/potatoBody" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_below="@id/textView"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/arms"
+        android:id="@+id/potatoArms" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_below="@id/textView"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ears"
+        android:id="@+id/potatoEars" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_below="@id/textView"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/eyebrows"
+        android:id="@+id/potatoEyebrows" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_below="@id/textView"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/eyes"
+        android:id="@+id/potatoEyes" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_below="@id/textView"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/glasses"
+        android:id="@+id/potatoGlasses" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_below="@id/textView"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/hat"
+        android:id="@+id/potatoHat" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_below="@id/textView"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/mouth"
+        android:id="@+id/potatoMouth" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_below="@id/textView"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/mustache"
+        android:id="@+id/potatoMustache" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_below="@id/textView"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/nose"
+        android:id="@+id/potatoNose" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_below="@id/textView"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/shoes"
+        android:id="@+id/potatoShoes" />
+
     <GridLayout
-        android:layout_width="match_parent"
+        android:layout_width="240dp"
+        android:layout_centerHorizontal="true"
         android:layout_height="match_parent"
         android:layout_below="@+id/potatoBody"
         android:columnCount="2"
         android:rowCount="5">
 
         <CheckBox
-            android:layout_width="wrap_content"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_row="0"
             android:layout_column="0"
-            android:text="New CheckBox"
-            android:id="@+id/checkArms" />
+            android:text="Arms"
+            android:id="@+id/checkArms"
+            android:onClick="armsClicked"/>
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="0"
             android:layout_column="1"
-            android:layout_gravity="right"
-            android:text="New CheckBox"
-            android:id="@+id/checkEars" />
+            android:layout_gravity="start"
+            android:text="Ears"
+            android:id="@+id/checkEars"
+            android:onClick="earsClicked"/>
+
+        <CheckBox
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="Eyebrows"
+            android:id="@+id/checkEyebrows"
+            android:onClick="eyebrowsClicked"/>
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="1"
-            android:layout_column="0"
-            android:text="New CheckBox"
-            android:id="@+id/checkEyebrows" />
-
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="1"
             android:layout_column="1"
-            android:layout_gravity="right"
-            android:text="New CheckBox"
-            android:id="@+id/checkGlasses" />
+            android:layout_gravity="start"
+            android:text="Glasses"
+            android:id="@+id/checkGlasses"
+            android:onClick="glassesClicked"/>
 
         <CheckBox
-            android:layout_width="wrap_content"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_row="2"
             android:layout_column="0"
-            android:text="New CheckBox"
-            android:id="@+id/checkEyes" />
+            android:text="Eyes"
+            android:id="@+id/checkEyes"
+            android:onClick="eyesClicked"/>
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="2"
             android:layout_column="1"
-            android:layout_gravity="right"
-            android:text="New CheckBox"
-            android:id="@+id/checkHat" />
+            android:layout_gravity="start"
+            android:text="Hat"
+            android:id="@+id/checkHat"
+            android:onClick="hatClicked"/>
 
         <CheckBox
-            android:layout_width="wrap_content"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_row="3"
             android:layout_column="0"
-            android:text="New CheckBox"
-            android:id="@+id/checkMouth" />
+            android:text="Mouth"
+            android:id="@+id/checkMouth"
+            android:onClick="mouthClicked"/>
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="3"
             android:layout_column="1"
-            android:layout_gravity="right"
-            android:text="New CheckBox"
-            android:id="@+id/checkMustache" />
+            android:layout_gravity="start"
+            android:text="Mustache"
+            android:id="@+id/checkMustache"
+            android:onClick="mustacheClicked"/>
 
         <CheckBox
-            android:layout_width="wrap_content"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_row="4"
             android:layout_column="0"
-            android:text="New CheckBox"
-            android:id="@+id/checkNose" />
+            android:text="Nose"
+            android:id="@+id/checkNose"
+            android:onClick="noseClicked"/>
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="4"
             android:layout_column="1"
-            android:layout_gravity="right"
-            android:text="New CheckBox"
-            android:id="@+id/checkShoes" />
+            android:layout_gravity="start"
+            android:text="Shoes"
+            android:id="@+id/checkShoes"
+            android:onClick="shoesClicked"/>
 
     </GridLayout>
 
